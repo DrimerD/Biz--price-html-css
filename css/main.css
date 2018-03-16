@@ -1,0 +1,900 @@
+/*Fonts*/
+@font-face {
+    font-family: 'pf_beausans_probold';
+    src: url('../fonts/pfbeausanspro-bold-webfont.woff2') format('woff2'),
+    url('../fonts/pfbeausanspro-bold-webfont.woff') format('woff'),
+    url('../fonts/pfbeausanspro-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_beausans_probold_italic';
+    src: url('../fonts/pfbeausanspro-bolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/pfbeausanspro-bolditalic-webfont.woff') format('woff'),
+    url('../fonts/pfbeausanspro-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_beausans_proitalic';
+    src: url('../fonts/pfbeausanspro-italic-webfont.woff2') format('woff2'),
+    url('../fonts/pfbeausanspro-italic-webfont.woff') format('woff'),
+    url('../fonts/pfbeausanspro-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_beausans_prolight';
+    src: url('../fonts/pfbeausanspro-light-webfont.woff2') format('woff2'),
+    url('../fonts/pfbeausanspro-light-webfont.woff') format('woff'),
+    url('../fonts/pfbeausanspro-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_beausans_proregular';
+    src: url('../fonts/pfbeausanspro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/pfbeausanspro-regular-webfont.woff') format('woff'),
+    url('../fonts/pfbeausanspro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_beausans_prothin';
+    src: url('../fonts/pfbeausanspro-thin-webfont.woff2') format('woff2'),
+    url('../fonts/pfbeausanspro-thin-webfont.woff') format('woff'),
+    url('../fonts/pfbeausanspro-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*main*/
+button{
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+main{
+    min-height: 400px;
+    background: transparent;
+    color:  white;
+    background-size: cover;
+    font-family: pf_beausans_proregular;
+    position: relative;
+}
+.bg-faded {
+    background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 19px;
+    color: #eaeaea;
+}
+.navbar-light .navbar-nav .nav-link:hover, footer a{
+    color: #13b3c9;
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #13b3c9;
+    text-decoration: underline;
+}
+.btn-outline-success {
+    font-size: 18px;
+    color: #eaeaea;
+    border-radius: 17px;
+    background-color: rgb(136, 197, 58);
+    box-shadow: 0px 2px 0px 0px rgba(93, 140, 33, 0.004);
+    width: 290px;
+    height: 40px;
+}
+.btn-outline-success:hover, .btn-form-submit:hover{
+    background-color: rgb(19,203,229);
+}
+.logo{
+    margin-top: 30px;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.logo h1{
+    font-size: 31px;
+    text-transform: uppercase;
+}
+.main-text{
+    margin-top: 5%;
+    text-align: center;
+}
+.main-text h1{
+    font-size: 31px;
+    font-family: pf_beausans_prothin;
+}
+.main-text h5{
+    background-color: #353535;
+    padding: 5px 20px;
+}
+.button-main-text {
+    border-radius: 15px;
+    background-color: rgb(136, 197, 58);
+    box-shadow: 0px 2px 0px 0px rgba(93, 140, 33, 0.004);
+    width: 520px;
+    height: 50px;
+    font-size: 18px;
+    color: #eaeaea;
+}
+.button-main-text:hover{
+    background-color: rgb(19,203,229);
+}
+.main-text p{
+    font-size: 14px;
+}
+
+
+/*first block*/
+.firs{
+    margin-top: 30px;
+}
+.firs img{
+    float: left;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.firs h4,
+.take h4,
+.plus h4{
+    font-size: 20px;
+    font-family: pf_beausans_probold;
+    color: rgb(136, 197, 58);
+    font-weight: bold;
+    line-height: 0.9;
+ }
+
+.firs p, .take p, .plus p, .help p{
+    color: rgb(136, 197, 58);
+    font-size: 18px;
+    font-family: pf_beausans_prolight;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+}
+.container-firs{
+    margin-top: 60px;
+}
+/**/
+.uses{
+    margin-top: 50px;
+    background-image: url("../images/first/bg-uses.jpg");
+    text-align: center;
+    padding-bottom: 50px;
+}
+.uses h2,
+.conditions h2,
+.take h2,
+.plus h2,
+.sales h2,
+.help h2,
+.eclipse-container h2{
+    font-weight: 100;
+    padding-top: 50px;
+    font-size: 28px;
+    font-family: pf_beausans_proregular;
+}
+.video-block{
+    margin-top: 30px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-left: -10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+}
+.video-block2{
+    margin-left: 10px;
+    margin-right: -10px;
+}
+.video-block video{
+    max-width: 98%;
+}
+.video-block video{
+    cursor: pointer;
+}
+.video-block p {
+    font-size: 20px;
+    font-family: pf_beausans_prolight;
+    color: rgb(0, 0, 0);
+}
+.video-block h6{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+/*uses*/
+
+/*Conditions*/
+.conditions{
+    text-align: center;
+}
+.conditions h3,
+.sales h3{
+    font-family: pf_beausans_probold_italic;
+    font-weight: bolder;
+    font-size: 1.65rem;
+}
+.block-conditions{
+    margin-top: 30px;
+}
+.block-conditions > div{
+    background-color: #eaeaea;
+    border: 5px solid white;
+}
+.conditions-1{
+    background-image: url("../images/conditions/1.png");
+    background-repeat: no-repeat;
+}
+.conditions-2{
+    background-image: url("../images/conditions/2.png");
+    background-repeat: no-repeat;
+}
+.conditions-3{
+    background-image: url("../images/conditions/3.png");
+    background-repeat: no-repeat;
+}
+.conditions-4{
+    background-image: url("../images/conditions/4.png");
+    background-repeat: no-repeat;
+}
+.conditions-5{
+    background-image: url("../images/conditions/5.png");
+    background-repeat: no-repeat;
+}
+.conditions-6{
+    background-image: url("../images/conditions/6.png");
+    background-repeat: no-repeat;
+}
+.condit-container{
+    margin-left: 85px;
+    text-align: left;
+    margin-top: 30px;
+}
+.conditional-button{
+    margin: 20px 0 30px 0;
+}
+.button-conditional{
+    font-size: 18px;
+    color: #eaeaea;
+    border-radius: 15px;
+    background-color: rgb(136, 197, 58);
+    box-shadow: 0px 2px 0px 0px rgba(93, 140, 33, 0.004);
+    width: 600px;
+}
+.button-conditional:hover{
+    background-color: rgb(19,203,229);
+}
+/*take*/
+.take {
+    background-image: url("../images/plus/bg-plus.jpg");
+    text-align: center;
+}
+.take-block{
+    margin-top: 30px;
+}
+.border-take{
+    height: 221px;
+    text-align: left;
+    border: 1px solid rgb(234, 234, 234);
+    background-color: rgb(234, 234, 234);
+}
+
+.margins-right{
+    margin-bottom: 20px;
+    border-right: 10px solid #e4e4e4;
+}
+.margins-right img{
+    margin-left: -15px;
+    margin-right: 20px;
+    float: left;
+}
+.margins-left{
+    text-align: right;
+    margin-bottom: 20px;
+    border-left: 10px solid #e4e4e4;
+}
+.margins-left img{
+    margin-right: -15px;
+    margin-left: 20px;
+    float: right;
+}
+.content{
+    margin: 55px 0 10px 0;
+}
+.button-block{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button-block h3{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: pf_beausans_proregular;
+    color: rgb(51, 51, 51);
+    line-height: 1;
+}
+.button-take{
+    font-size: 18px;
+    color: #eaeaea;
+    border-radius: 15px;
+    background-color: rgb(136, 197, 58);
+    box-shadow: 0px 2px 0px 0px rgba(93, 140, 33, 0.004);
+    width: 100%;
+    height: 50px;
+    padding-right: -15px;
+}
+.button-take:hover{
+    background-color: rgb(19,203,229);
+}
+.button-block p {
+    margin-top: 10px;
+}
+/*PLUS*/
+.content-plus{
+    margin-top: 15px;
+}
+.plus-content-row{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.plus-full-column{
+    margin-bottom: 25px;
+}
+/*SALES*/
+.sales{
+    background-image: url("../images/sales/bg-sales.jpg");
+}
+.sales img{
+    margin-top: -5px;
+    width: 100%;
+    height:auto;
+}
+.sales h3{
+    padding-top: 20px;
+    font-style: italic;
+}
+.sales-row{
+    padding-bottom: 30px;
+}
+.content-sales{
+    background: #eaeaea;
+    color: #333333;
+}
+.sales .video-block{
+    max-height: 540px;
+}
+.sales p{
+    font-family: pf_beausans_prolight;
+    font-size: 16px;
+    text-align: left;
+    margin: 15px 25px 25px 25px;
+}
+.sales button{
+    font-family: pf_beausans_proregular;
+    font-size: 18px;
+    color: #dfe8d5;
+    border-radius: 15px;
+    background-color: rgb(136, 197, 58);
+    box-shadow: 0px 2px 0px 0px rgba(93, 140, 33, 0.004);
+    border-top: none;
+    border-left: none;
+    width: 70%;
+    height: 43px;
+    margin-bottom: 20px;
+}
+.sales button:hover{
+    background-color: rgb(19, 203, 229);
+    box-shadow: 0px 2px 0px 0px rgba(36, 151, 167, 0.004);
+}
+/*HELP*/
+.help .background-parallelogram{
+    margin-top: 30px;
+    background: #eaeaea;
+    margin-bottom: 50px;
+}
+.parallelogram{
+    background: white;
+    padding: 0px 10px;
+    position: relative;
+}
+.parallelogram img{
+    -webkit-transform: skew(5deg);
+    -moz-transform: skew(5deg);
+    -ms-transform: skew(5deg);
+    -o-transform: skew(5deg);
+    transform: skew(5deg);
+    max-height: 100%;
+    max-width: 100%;
+}
+.conteiner-parallelogram{
+    background: white;
+    height: 100%;
+    padding: 2px 0;
+    -webkit-transform: skew(-5deg);
+    -moz-transform: skew(-5deg);
+    -ms-transform: skew(-5deg);
+    -o-transform: skew(-5deg);
+    transform: skew(-5deg);
+}
+.help h4{
+    color: #ffffff;
+    position: absolute;
+    top: 44%;
+    left: 12%;
+    width: 76%;
+    font-family: pf_beausans_prolight;
+    font-size: 16px;
+}
+/*FORM*/
+.form {
+    margin-bottom: 45px;
+}
+.form h2{
+    padding-top: 25px;
+    font-family: pf_beausans_probold;
+    font-size: 28px;
+    color: rgb(136, 197, 58);
+    font-weight: bold;
+}
+.form h4{
+    font-family: pf_beausans_proregular;
+    font-size: 14px;
+    background: rgb(234, 234, 234);
+    padding: 10px;
+    margin-bottom: 0;
+}
+.form .container{
+    border: 5px solid rgb(234, 234, 234);
+    padding-left: 0;
+    padding-right: 0;
+}
+.form form{
+    padding-bottom: 15px;
+    width: 100%;
+}
+.form .form-inline input{
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    font-weight: 100;
+    font-size: 18px;
+    color: #333333;
+    font-family: pf_beausans_proregular;
+    transition: 1s;
+}
+.form .form-control{
+    border-radius: 0;
+}
+.btn-form-submit{
+    border-radius: 10px;
+    background-color: rgb(136, 197, 58);
+    border-top: none;
+    border-left: none;
+    height: 38px;
+    box-shadow: 0px 2px 0px 0px rgba(93, 140, 33, 0.004);
+    font-size: 18px;
+    font-family: pf_beausans_proregular;
+    color: white;
+    padding: 5px 25px;
+    width: 100%;
+}
+.form .row{
+    width: 100%;
+    justify-content: space-around;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.form .col-lg-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.form .col-md-6{
+    padding: 5px 5px;
+}
+/*FOOTER*/
+footer{
+    border-top: 2px solid rgb(136, 197, 58);
+    font-family: pf_beausans_proregular;
+}
+.container-footer{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+footer img{
+    width: 100%;
+    height: auto;
+}
+footer h4{
+    font-size: 16px;
+}
+footer .row{
+    align-items: center;
+}
+footer h2{
+    text-transform: uppercase;
+}
+footer a{
+    color: #999999;
+    font-size: 16px;
+    text-decoration: underline;;
+}
+/*eclipse*/
+.eclipse-block{
+    background-color: rgba(4, 23, 26, 0.9);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eclipse-container{
+    background-color: rgba(234, 234, 234, 1);
+    border: 5px solid rgb(255, 255, 255);
+    max-height: 400px;
+    position: fixed;
+    color: #333333;
+    max-width: 80%;
+    line-height: 1em;
+    font-family: pf_beausans_proregular;
+}
+.eclipse-container img{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.eclipse-container img:hover{
+    cursor: pointer;
+}
+.eclipse-container h2{
+    color: #88c53a;
+    padding-top: 0;
+    font-weight: bolder;
+}
+.eclipse-container p{
+    font-size: 16px;
+    margin-top: 7px;
+}
+.eclipse-container{
+    padding: 25px;
+}
+/**/
+
+
+@media (max-width: 1199px) {
+    .logo h1 {
+        font-size: 25px;
+    }
+    .main-text h1{
+        font-size: 25px;
+    }
+    .main-text h5{
+        font-size: 16px;
+    }
+    .main-text p{
+        font-size: 12px;
+    }
+    .button-main-text{
+        width: 430px;
+        font-size: 16px;
+    }
+    .main-text{
+        margin-top: 100px;
+    }
+    .firs h4{
+        font-size: 17px;
+    }
+    .firs p{
+        font-size: 14px;
+    }
+    .container-firs{
+        margin-top: 50px;
+    }
+    .conditions h3{
+        font-size: 1.3rem;
+    }
+    .conditions p{
+        font-size: 15px;
+    }
+    .take h4{
+        font-size: 19px;
+    }
+    .take p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-nav, .navbar{
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-right: 10px;
+    }
+    .main-text h1 {
+        font-size: 18px;
+    }
+    .main-text h5 {
+        font-size: 14px;
+    }
+    .button-main-text {
+        width: 370px;
+        font-size: 14px;
+        height: 40px;
+        margin-right: auto;
+    }
+    .main-text{
+        align-items: center;
+    }
+    .firs h4{
+        font-size: 18px;
+    }
+    .firs p{
+        font-size: 15px;
+    }
+    .video-block{
+        margin-left: 0;
+    }
+    .video-block2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video-block video{
+        max-width: 100%;
+    }
+    .text-block{
+        margin-left: 50px;
+    }
+    .block-conditions > div{
+        height: 150px;
+    }
+    .button-conditional{
+        width: 450px;
+    }
+    .take h4{
+        font-size: 20px;
+    }
+    .take p{
+        font-size: 18px;
+    }
+    .margins-right,
+    .margins-left{
+        border: none;
+    }
+    .sales{
+        background: #ededed;
+    }
+    .sales .video-block {
+        margin-bottom: 20px;
+    }
+    .parallelogram{
+        margin-bottom: 10px;
+    }
+    .last-parallelogram,.pre-last-parallelogrram{
+        margin-bottom: 0;
+    }
+    .help h4{
+        left: 18%;
+        width: 65%;
+    }
+}
+@media (max-width: 768px) {
+    .container-firs{
+        margin-top: 80px;
+    }
+    .text-block{
+        margin-left: 0;
+    }
+    .button-conditional{
+        font-size: 16px;
+        width: 370px;
+    }
+    .sales .video-block {
+        margin-bottom: 10px;
+    }
+    .video-block video {
+        margin-top: -5px;
+    }
+    footer .col-sm-6{
+        padding-top: 15px;
+    }
+    footer h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-block{
+        display: block;
+    }
+    .logo{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .logo h1 {
+        font-size: 31px;
+        margin-top: 20px;
+    }
+    .main-text {
+         margin-top: 20px;
+    }
+    .main-text h1 {
+        font-size: 19px;
+    }
+    .main-text h5 {
+        font-size: 16px;
+    }
+    .main-text p {
+        font-size: 14px;
+    }
+    .take h4{
+        font-size: 19px;
+    }
+    .take p{
+        font-size: 15px;
+    }
+    .parallelogram{
+        padding: 0 0;
+    }
+    .hidden-img{
+        overflow: hidden;
+    }
+    .help h4{
+        left: 27%;
+        width: 46%;
+    }
+    .pre-last-parallelogrram{
+        margin-bottom: 10px;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media (max-width: 475px) {
+    .border-take{
+        height: auto;
+    }
+    .content{
+        display: block;
+    }
+    .take h4{
+        font-size: 18px;
+    }
+    .take p{
+        font-size: 15px;
+    }
+    .sales h3{
+        font-size: 1.4rem;
+    }
+    .form p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 460px) {
+    .margins-left img, .margins-right img {
+        float: none;
+    }
+
+    .margins-left, .margins-right {
+        text-align: center;
+    }
+
+    .take h4 {
+        font-size: 20px;
+    }
+
+    .take p {
+        font-size: 18px;
+    }
+
+    .take .text-left {
+        text-align: center !important;
+    }
+
+    .uses h2, .conditions h2, .take h2, .plus h2, .sales h2, .help h2{
+        font-size: 24px;
+    }
+}
+@media (max-width: 435px) {
+    .button-main-text {
+        width: 310px;
+        font-size: 13px;
+        height: 35px;
+    }
+    .logo h1 {
+        font-size: 25px;
+        margin-top: 18px;
+    }
+    .logo img {
+        width: 75%;
+    }
+    .col-sm-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .block-conditions > div{
+        height: 170px;
+    }
+    .condit-container{
+        margin-left: 95px;
+    }
+    .button-conditional{
+        font-size: 14px;
+        width: 100%;
+        margin-right: auto;
+    }
+    .sales button{
+        width: 90%;
+    }
+    .button-take {
+        font-size: 11px;
+    }
+    .eclipse-container h2{
+        font-size: 22px;
+    }
+    .eclipse-container p {
+        font-size: 13px;
+        margin-top: 2px;
+    }
+}
+@media (max-width: 435px) {
+    .button-main-text {
+        width: 290px;
+        font-size: 11px;
+        height: 35px;
+        margin-right: 30px;
+    }
+    .main-text h5 {
+        font-size: 14px;
+    }
+    .navbar-brand{
+        margin-right: 0px;
+    }
+    .main-text form button{
+        margin: 0 auto;
+    }
+    .my-2 {
+        margin-top: 0 !important;
+    }
+    .container-firs{
+        display: block;
+        clear: both;
+    }
+    .firs{
+        text-align: center;
+    }
+    .firs img{
+        margin: 5px 31%;
+    }
+    .help h4 {
+        left: 24%;
+        width: 53%;
+    }
+}
+@media (max-width: 435px) {
+    .firs img{
+        margin: 5px 24%;
+    }
+}
+@media (max-width: 320px) {
+    .button-conditional {
+        font-size: 12px;
+        width: 100%;
+    }
+}
