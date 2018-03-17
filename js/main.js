@@ -8,7 +8,6 @@ $(document).ready(function(){
         heightDetect();
     });
 
-    $('.eclipse-block').show(500);
 
     $('.click-button').on('click', function () {
         $('.eclipse-block').fadeIn(500);

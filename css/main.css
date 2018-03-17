@@ -48,6 +48,32 @@
     font-style: normal;
 }
 /*main*/
+.boxHidden{
+    visibility: hidden;
+}
+.fadeIn {
+    visibility: visible;
+}
+.delay-025s{
+    -webkit-animation-delay: 0.25s;
+    -moz-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+.delay-05s{
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.delay-075s{
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+.delay-1s{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
 button{
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
