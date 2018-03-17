@@ -8,6 +8,11 @@ $(document).ready(function(){
         heightDetect();
     });
 
+    $(this).keydown(function(e){
+            if(e.keyCode == 27){
+                $('.eclipse-block').fadeOut(500);
+            }
+        });
 
     $('.click-button').on('click', function () {
         $('.eclipse-block').fadeIn(500);
@@ -15,5 +20,5 @@ $(document).ready(function(){
 
     $('.close-eclipse').on('click', function () {
         $('.eclipse-block').fadeOut(500);
-    })
+    });
 });
