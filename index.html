@@ -11,8 +11,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('#loader-wrapper'),
+            $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(50).fadeOut('slow');
+        });
+    </script>
 </head>
 <body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
     <div class="eclipse-block ">
         <div class="eclipse-container text-center animated zoomIn">
             <img src="images/close.png" alt="Close" class="close-eclipse">
@@ -514,7 +526,6 @@
         </div>
     </footer>
     <script src="js/jquery-ui.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.waypoints.js"></script>
