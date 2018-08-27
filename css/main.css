@@ -187,6 +187,7 @@ main{
     height: 40px;
 }
 .btn-outline-success:hover, .btn-form-submit:hover{
+    transition: 0.75s linear;
     background-color: rgb(19,203,229);
 }
 .logo{

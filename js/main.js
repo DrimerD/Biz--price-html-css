@@ -13,7 +13,7 @@ $(document).ready(function(){
                 $('.eclipse-block').fadeOut(500);
             }
         });
-
+    
     $('.click-button').on('click', function () {
         $('.eclipse-block').fadeIn(500);
     });
